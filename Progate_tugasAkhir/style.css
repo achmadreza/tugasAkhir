@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: monospace, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px purple solid;
+    padding-bottom: 1rem;
+    
+}
+.forms {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px red solid;
+    padding-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    
+}
+
+
+.song-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 1rem;
+    border:display blue;
+    margin: 1rem;
+    border-radius: 5px;
+    color:goldenrod;
+    box-shadow: 0px 0px 10px 1px goldenrod;
+}
+
+.song-of-song {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    
+}
