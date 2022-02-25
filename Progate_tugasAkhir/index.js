@@ -8,7 +8,7 @@ const search = async (e) => {
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "genius.p.rapidapi.com",
-			"x-rapidapi-key": process.env.MY_API-TOKEN
+			"x-rapidapi-key": "4a4eeae252msh0a487e086486669p1e01edjsnecc337cbdf8b"
 		}
 	});
 
